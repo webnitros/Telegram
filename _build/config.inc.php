@@ -10,7 +10,7 @@ if (!defined('MODX_CORE_PATH')) {
 
 return [
     'name' => 'Telegram',
-    'name_lower' => 'telegram', // https://telegram.local/Extras/Telegram/_build/build.php?download=1
+    'name_lower' => 'telegram',
     'version' => '1.0.3',
     'release' => 'beta',
     // Install package to site right after build
@@ -47,6 +47,5 @@ return [
     // Copy file
     'copy' => !empty($_REQUEST['copy']),
     'copy_server' => '',
-    #'copy_server' => 'http://s16305.h4.modhost.pro/copy_package.php',
     'auto_install' => false,
 ];
