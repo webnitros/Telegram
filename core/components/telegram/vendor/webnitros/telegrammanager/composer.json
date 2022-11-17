@@ -1,0 +1,36 @@
+{
+    "name": "webnitros/telegrammanager",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "webnitros",
+            "email": "info@bustep.ru"
+        }
+    ],
+    "scripts": {
+        "tests" : "phpunit --bootstrap bootstrap.php",
+        "up:release": "gh release create \"v1.1.6\" --generate-notes"
+    },
+    "keywords": [
+        "client"
+    ],
+    "require": {
+        "php": ">=7.0.0",
+        "longman/telegram-bot": "^0.78.0"
+    },
+    "require-dev": {
+        "roave/security-advisories": "dev-latest",
+        "phpunit/phpunit": "9.*",
+        "mockery/mockery": "^1.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "TelegramManager\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    }
+}

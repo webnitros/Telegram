@@ -1,0 +1,21 @@
+{
+    "name": "astep/telegram",
+    "autoload": {
+        "psr-4": {
+            "Astep\\Telegram\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Андрей",
+            "email": "info@bustep.ru"
+        }
+    ],
+    "require": {
+        "webnitros/telegrammanager": "^1.1"
+    }
+    ,
+    "require-dev": {
+        "roave/security-advisories": "dev-latest"
+    }
+}
